@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037056BB28217AC4005BA081 /* PairCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037056A828217AC2005BA081 /* PairCardApp.swift */; };
+		037056BC28217AC4005BA081 /* PairCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037056A828217AC2005BA081 /* PairCardApp.swift */; };
+		037056BD28217AC4005BA081 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037056A928217AC2005BA081 /* ContentView.swift */; };
+		037056BE28217AC4005BA081 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037056A928217AC2005BA081 /* ContentView.swift */; };
+		037056BF28217AC4005BA081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037056AA28217AC4005BA081 /* Assets.xcassets */; };
+		037056C028217AC4005BA081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037056AA28217AC4005BA081 /* Assets.xcassets */; };
+		03A129D12832F6F800768463 /* PlayCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A129D02832F6F800768463 /* PlayCardView.swift */; };
+		03A129D22832F6F800768463 /* PlayCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A129D02832F6F800768463 /* PlayCardView.swift */; };
+		03A129D62832FBBD00768463 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A129D52832FBBD00768463 /* HomeView.swift */; };
+		03A129D72832FBBD00768463 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A129D52832FBBD00768463 /* HomeView.swift */; };
+		03A129E22832FC6700768463 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A129E12832FC6700768463 /* SettingView.swift */; };
+		03A129E32832FC6700768463 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A129E12832FC6700768463 /* SettingView.swift */; };
+		03A129E7283340C000768463 /* CardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A129E6283340C000768463 /* CardGame.swift */; };
+		03A129E8283340C000768463 /* CardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A129E6283340C000768463 /* CardGame.swift */; };
+		03BACA53282221DD00010DE4 /* PlayCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BACA52282221DD00010DE4 /* PlayCard.swift */; };
+		03BACA54282221DD00010DE4 /* PlayCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BACA52282221DD00010DE4 /* PlayCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		037056A828217AC2005BA081 /* PairCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairCardApp.swift; sourceTree = "<group>"; };
+		037056A928217AC2005BA081 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		037056AA28217AC4005BA081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		037056AF28217AC4005BA081 /* PairCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		037056B228217AC4005BA081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037056B728217AC4005BA081 /* PairCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		037056B928217AC4005BA081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037056BA28217AC4005BA081 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		03A129D02832F6F800768463 /* PlayCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayCardView.swift; sourceTree = "<group>"; };
+		03A129D52832FBBD00768463 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		03A129E12832FC6700768463 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		03A129E6283340C000768463 /* CardGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGame.swift; sourceTree = "<group>"; };
+		03BACA52282221DD00010DE4 /* PlayCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		037056AC28217AC4005BA081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037056B428217AC4005BA081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037056A228217AC2005BA081 = {
+			isa = PBXGroup;
+			children = (
+				037056A728217AC2005BA081 /* Shared */,
+				037056B128217AC4005BA081 /* iOS */,
+				037056B828217AC4005BA081 /* macOS */,
+				037056B028217AC4005BA081 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		037056A728217AC2005BA081 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				037056A828217AC2005BA081 /* PairCardApp.swift */,
+				037056A928217AC2005BA081 /* ContentView.swift */,
+				037056AA28217AC4005BA081 /* Assets.xcassets */,
+				03BACA52282221DD00010DE4 /* PlayCard.swift */,
+				03A129D02832F6F800768463 /* PlayCardView.swift */,
+				03A129D52832FBBD00768463 /* HomeView.swift */,
+				03A129E12832FC6700768463 /* SettingView.swift */,
+				03A129E6283340C000768463 /* CardGame.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		037056B028217AC4005BA081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				037056AF28217AC4005BA081 /* PairCard.app */,
+				037056B728217AC4005BA081 /* PairCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		037056B128217AC4005BA081 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				037056B228217AC4005BA081 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		037056B828217AC4005BA081 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				037056B928217AC4005BA081 /* Info.plist */,
+				037056BA28217AC4005BA081 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		037056AE28217AC4005BA081 /* PairCard (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037056C328217AC4005BA081 /* Build configuration list for PBXNativeTarget "PairCard (iOS)" */;
+			buildPhases = (
+				037056AB28217AC4005BA081 /* Sources */,
+				037056AC28217AC4005BA081 /* Frameworks */,
+				037056AD28217AC4005BA081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PairCard (iOS)";
+			productName = "PairCard (iOS)";
+			productReference = 037056AF28217AC4005BA081 /* PairCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		037056B628217AC4005BA081 /* PairCard (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037056C628217AC4005BA081 /* Build configuration list for PBXNativeTarget "PairCard (macOS)" */;
+			buildPhases = (
+				037056B328217AC4005BA081 /* Sources */,
+				037056B428217AC4005BA081 /* Frameworks */,
+				037056B528217AC4005BA081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PairCard (macOS)";
+			productName = "PairCard (macOS)";
+			productReference = 037056B728217AC4005BA081 /* PairCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		037056A328217AC2005BA081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					037056AE28217AC4005BA081 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					037056B628217AC4005BA081 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 037056A628217AC2005BA081 /* Build configuration list for PBXProject "PairCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 037056A228217AC2005BA081;
+			productRefGroup = 037056B028217AC4005BA081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				037056AE28217AC4005BA081 /* PairCard (iOS) */,
+				037056B628217AC4005BA081 /* PairCard (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		037056AD28217AC4005BA081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037056BF28217AC4005BA081 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037056B528217AC4005BA081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037056C028217AC4005BA081 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		037056AB28217AC4005BA081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A129D12832F6F800768463 /* PlayCardView.swift in Sources */,
+				03BACA53282221DD00010DE4 /* PlayCard.swift in Sources */,
+				03A129E7283340C000768463 /* CardGame.swift in Sources */,
+				037056BD28217AC4005BA081 /* ContentView.swift in Sources */,
+				03A129E22832FC6700768463 /* SettingView.swift in Sources */,
+				03A129D62832FBBD00768463 /* HomeView.swift in Sources */,
+				037056BB28217AC4005BA081 /* PairCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037056B328217AC4005BA081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A129D22832F6F800768463 /* PlayCardView.swift in Sources */,
+				03BACA54282221DD00010DE4 /* PlayCard.swift in Sources */,
+				03A129E8283340C000768463 /* CardGame.swift in Sources */,
+				037056BE28217AC4005BA081 /* ContentView.swift in Sources */,
+				03A129E32832FC6700768463 /* SettingView.swift in Sources */,
+				03A129D72832FBBD00768463 /* HomeView.swift in Sources */,
+				037056BC28217AC4005BA081 /* PairCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		037056C128217AC4005BA081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		037056C228217AC4005BA081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		037056C428217AC4005BA081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45FZTZVT66;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allix.PairCard;
+				PRODUCT_NAME = PairCard;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		037056C528217AC4005BA081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45FZTZVT66;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allix.PairCard;
+				PRODUCT_NAME = PairCard;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		037056C728217AC4005BA081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YXJNHU55QA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fxtest.PairCard;
+				PRODUCT_NAME = PairCard;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		037056C828217AC4005BA081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YXJNHU55QA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fxtest.PairCard;
+				PRODUCT_NAME = PairCard;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037056A628217AC2005BA081 /* Build configuration list for PBXProject "PairCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037056C128217AC4005BA081 /* Debug */,
+				037056C228217AC4005BA081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037056C328217AC4005BA081 /* Build configuration list for PBXNativeTarget "PairCard (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037056C428217AC4005BA081 /* Debug */,
+				037056C528217AC4005BA081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037056C628217AC4005BA081 /* Build configuration list for PBXNativeTarget "PairCard (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037056C728217AC4005BA081 /* Debug */,
+				037056C828217AC4005BA081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 037056A328217AC2005BA081 /* Project object */;
+}
