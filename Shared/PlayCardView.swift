@@ -21,7 +21,9 @@ struct PlayCardView: View {
     @State private var cpuBg: Color = Color.gray
     @State private var playButton: String = "play.rectangle.fill"
     @State private var title: String = "Are you smarter than a"
-    @State private var titleColor: Color = Color.white
+    @State private var titleColor: Color = Color.black
+    @State private var width: Int = 570
+    @State private var height: Int = 870
     
     init() {
         _cards = State(initialValue: self.cardManager.shafferCardPairs(deckSize: 36))
@@ -34,7 +36,7 @@ struct PlayCardView: View {
             VStack {
                 HStack {
                     Image(systemName: "person.fill")
-                    Text(title)
+                    Text(title).foregroundColor(titleColor)
                         .onReceive(globalData.$cardCount) {
                             cards = self.cardManager.shafferCardPairs(deckSize: $0)
                         }
@@ -69,8 +71,11 @@ struct PlayCardView: View {
                             },
                             label: {
                                 Image(cards[vIdx*globalData.hSize + idx].imageName)
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
                             }
                         )
+                        .frame(width: (UIScreen.main.bounds.size.width-50)/CGFloat(globalData.hSize), height: (UIScreen.main.bounds.size.height-400)/CGFloat(globalData.vSize), alignment: Alignment.center)
                     }
                 }
             }
@@ -126,7 +131,7 @@ struct PlayCardView: View {
             card.setImageName()
         }
         title = "Are you smarter than a"
-        titleColor = Color.white
+        titleColor = Color.black
         game.startGame(opponent: opponent, cardCount: globalData.cardCount)
     }
     

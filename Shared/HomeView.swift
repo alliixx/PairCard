@@ -14,9 +14,9 @@ struct Faq: Identifiable {
     var items: [Faq]?
 
     // some example websites
-    static let howto1 = Faq(name: "You are playing against computer.  Computer will open two cards, then it is your turn.  If two cards match, one wins two points, and it is still one's turn.  The game goes on until all cards are gone.",
+    static let howto1 = Faq(name: "You are playing against the computer.  To start, click the play button. The computer starts by flipping two cards, then you flip two cards.  If you or the computer flips two matching cards, the matcher will be rewarded two points, and it will still be that one's turn. The game goes on until all cards are gone. To restart a game, press the pause button then press play again and all the cards will reset.",
                            icon: "1.circle")
-    static let howto2 = Faq(name: "The difficult level goes up when select bug, tortoise, hale, person, or computer.",
+    static let howto2 = Faq(name: "The difficulty goes up when you select bug, tortoise, hale, person, or computer.",
                            icon: "2.circle")
     
     static let setting1 = Faq(name: "Change difficulty level", icon: "1.circle")
@@ -45,7 +45,7 @@ struct HomeView: View {
                 HStack {
                     Image("playing")
                     Spacer()
-                    Text("PairCard is a game my family used to play when I was a kid.  It helped me greatly on memory training.  Hope you will enjoy it too."
+                    Text("PairCard is a game my family used to play when I was a kid.  It was a fun memory training technique. I hope you will enjoy it too."
                     )
                 }
                 .padding()

@@ -12,10 +12,10 @@ class GlobalData: ObservableObject {
     @Published var vSize: Int
     @Published var hSize: Int
     @Published var numBug = 0
-    @Published var numTortoise = 1
-    @Published var numHare = 2
-    @Published var numHuman = 3
-    @Published var numCpu = 4
+    @Published var numTortoise = 2
+    @Published var numHare = 4
+    @Published var numHuman = 8
+    @Published var numCpu = 36
     
     init() {
         self.cardCount = 16
