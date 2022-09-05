@@ -32,8 +32,6 @@
 		037056AF28217AC4005BA081 /* PairCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		037056B228217AC4005BA081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		037056B728217AC4005BA081 /* PairCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		037056B928217AC4005BA081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		037056BA28217AC4005BA081 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		03A129D02832F6F800768463 /* PlayCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayCardView.swift; sourceTree = "<group>"; };
 		03A129D52832FBBD00768463 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		03A129E12832FC6700768463 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
@@ -64,7 +62,6 @@
 			children = (
 				037056A728217AC2005BA081 /* Shared */,
 				037056B128217AC4005BA081 /* iOS */,
-				037056B828217AC4005BA081 /* macOS */,
 				037056B028217AC4005BA081 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,15 +96,6 @@
 				037056B228217AC4005BA081 /* Info.plist */,
 			);
 			path = iOS;
-			sourceTree = "<group>";
-		};
-		037056B828217AC4005BA081 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				037056B928217AC4005BA081 /* Info.plist */,
-				037056BA28217AC4005BA081 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
